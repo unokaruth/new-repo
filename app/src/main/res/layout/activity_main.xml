@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:background="@color/colorAccent"
+        style="@style/categoryName"/>
+
+    <TextView
+        android:id="@+id/attractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attractions"
+        android:background="@color/colorAccent"
+        style="@style/categoryName"
+        android:onClick="showAttractions"/>
+
+    <TextView
+        android:id="@+id/hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        style="@style/categoryName"
+        android:text="hotels" />
+
+    <TextView
+        android:id="@+id/restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        style="@style/categoryName"
+        android:text="restaurants" />
+
+</LinearLayout>
